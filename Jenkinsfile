@@ -19,6 +19,14 @@ pipeline{
 
                         sudo apt update -y
 
+                        cd /var/www
+
+                        sudo rm -rf html
+
+                        git clone https://github.com/theoafactor/webdev-logis.git html
+
+                        
+
                     '''
             }
         }
