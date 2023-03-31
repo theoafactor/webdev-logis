@@ -14,7 +14,7 @@ pipeline{
          stage("production"){
             steps{
                 sh '''
-                        echo "welcome to the production"
+                        echo "welcome to the production. Added Jenkins"
 
                     '''
             }
