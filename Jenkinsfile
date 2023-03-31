@@ -8,7 +8,9 @@ pipeline{
         }
 
         stage("prod"){
-            sh "This works fine"
+            steps{
+                sh "This works fine"
+            }
         }
     }
 }
