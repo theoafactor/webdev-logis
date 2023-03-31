@@ -17,7 +17,7 @@ pipeline{
 
                         ssh -o StrictHostKeyChecking=no -T -i /var/lib/jenkins/webkey.pem ubuntu@ec2-13-40-144-199.eu-west-2.compute.amazonaws.com 
 
-                        apt update -y
+                        sudo apt update -y
                 
                     '''
             }
